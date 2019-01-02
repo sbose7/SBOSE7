@@ -2415,7 +2415,12 @@ div.jumbotron img {
 				border-top-left-radius: 3px;
 				border-top-right-radius: 3px;
 			}
-
+.thumbnails a video {
+				display: block;
+				width: 100%;
+				border-top-left-radius: 3px;
+				border-top-right-radius: 3px;
+			}
 			.thumbnails a h3 {
 				margin: 0.5em;
 			}
@@ -2582,6 +2587,11 @@ div.jumbotron img {
 		-ms-filter: blur(3px);
 		filter: blur(3px);
 	}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
 
 /* Header */
 
@@ -2615,6 +2625,11 @@ div.jumbotron img {
 			}
 
 		}
+#foo{
+    position:relative;
+    top:-160%;
+    left:68.4%;
+}
 
 /* Footer */
 
