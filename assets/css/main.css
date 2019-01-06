@@ -81,8 +81,8 @@
 - If the element is the height and width of the full screen this will still work
 */
 .videoWrapper {
-  height:600px;
-  width:600px;
+  height:330px;
+  width:530px;
   position:relative;
   overflow:hidden;
 }
