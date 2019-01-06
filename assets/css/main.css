@@ -76,7 +76,24 @@
     background-position: center;
 }
 /* Grid */
+/*
+- Video Wrapper can be any element
+- If the element is the height and width of the full screen this will still work
+*/
+.videoWrapper {
+  height:600px;
+  width:600px;
+  position:relative;
+  overflow:hidden;
+}
 
+.videoWrapper iframe {
+	height:100%;
+	width:100%;
+	position:absolute;
+	top:0;
+	bottom:0;
+}
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
