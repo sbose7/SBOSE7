@@ -43,6 +43,18 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+@media screen and (min-width: 1366%) {
+#gallery-1 img {width:375%;}
+}
+@media screen and (min-width: 1440%) {
+#gallery-1 img {width:428%;}
+}
+@media screen and (min-width: 1600%) {
+#gallery-1 img {width:434%;}
+}
+@media screen and (min-width: 1920%) {
+#gallery-1 img {width:540%;}
+}
 
 /* Box Model */
 
